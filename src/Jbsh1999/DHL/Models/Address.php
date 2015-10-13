@@ -51,5 +51,4 @@ class Address {
 
         return $this;
     }
-
-} 
+}
