@@ -1,0 +1,22 @@
+{
+    "name": "Jbsh1999/laravel-dhl-api",
+    "description": "Laravel wrapper for the DHL API",
+    "keywords": ["laravel", "package", "dhl", "shipment", "parcel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Evgenii Solovev",
+            "email": "eldorado-ozr@yandx.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "5.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Jbsh1999\\LaravelDHL\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

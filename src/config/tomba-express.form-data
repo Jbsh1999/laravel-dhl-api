@@ -1,0 +1,125 @@
+Form 1
+
+action:mytomba
+form_abs_nr:
+form_abs_firma:Zust
+form_abs_name:Olga Kozintseva
+form_abs_zusatz:
+form_abs_strasse:Am Bahnhof
+form_abs_hausnr:21
+form_abs_plz:53757
+form_abs_ort:Sankt Augustin
+form_abs_land:Deutschland
+form_empf_nr:
+form_empf_firma:Solovev
+form_empf_name:Evgenii
+form_empf_zusatz:
+form_empf_strasse:Irtyashskaya 7-54
+form_empf_hausnr:.
+form_empf_plz:456780
+form_empf_ort:Ozersk
+form_empf_land:(unable to decode value)
+form_empf_tel:79068697679
+go_back:
+go_on:2
+set:weiter
+
+Form 2
+
+action:mytomba
+go_back:1
+go_on:3
+form_paketgewicht:20
+set:weiter
+
+Form 3
+
+action:mytomba
+go_back:2.1
+from:3
+step:produktauswahl
+go_on:4
+kg_ww_privat:
+form_paketgewicht:20
+produkt_status:PS
+select_payment:
+paketmarke_artikelnummer:310903
+servicebox[310903]:
+buche_produkt_menge:1
+min_abholdatum:2015-09-28
+form_abs_id:
+form_empf_id:
+show_empf_land:(unable to decode value)
+abd:weiter
+
+Form 4
+
+action:mytomba
+go_back:3
+go_on:5.2
+from:5.1
+comefrom:3
+step:abd
+buche_produkt_menge:1
+produkt_status:PS
+paketmarke_artikelnummer:310903
+service_abholdatum:
+show_empf_land:(unable to decode value)
+service_abholdatum:
+servicebox[310903]:
+nomrn:No
+
+Form 5
+
+action:mytomba
+buche_produkt_menge:1
+produkt_status:PS
+paketmarke_artikelnummer:310903
+service_abholdatum:
+kg_ww_privat:
+form_paketgewicht:
+check_zi:ja
+servicebox[310903]:
+zi_empf_erreichbarkeit:79068697679
+zi_empf_kennummer:
+use_zi_felder:4
+zi_box_inahlt[1]:Clothes
+zi_box_menge[1]:1
+zi_box_gewicht[1]:20
+zi_box_wert[1]:521
+zi_box_zolltarifnr[1]:
+zi_box_ursprung[1]:DE
+zi_box_inahlt[2]:
+zi_box_menge[2]:
+zi_box_gewicht[2]:
+zi_box_wert[2]:
+zi_box_zolltarifnr[2]:
+zi_box_ursprung[2]:
+zi_box_inahlt[3]:
+zi_box_menge[3]:
+zi_box_gewicht[3]:
+zi_box_wert[3]:
+zi_box_zolltarifnr[3]:
+zi_box_ursprung[3]:
+zi_box_inahlt[4]:
+zi_box_menge[4]:
+zi_box_gewicht[4]:
+zi_box_wert[4]:
+zi_box_zolltarifnr[4]:
+zi_box_ursprung[4]:
+zi_felder_plus:1
+zi_art:Sonstiges
+zi_genehmigung_nr:
+zi_bescheinigung_nr:
+zi_rechnung_nr:
+zi_empf_bemerkung:1000.154
+go_back:3
+go_on:6
+from:4
+step:zollinhalt
+save_zi:ja
+warenkorb:weiter
+
+
+
+Your article was successfully saved in your shopping cart.
